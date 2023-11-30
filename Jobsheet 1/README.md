@@ -56,15 +56,64 @@ yang tidak ada di ESP8266.</p>
 ### Keluaran
 
 1. Led menyala saat button ditekan
-   
-![Led-menyala-saat-button-ditekan](https://github.com/JeffriPS/Embedded/assets/94127988/3ef51a84-5ffe-4828-8b3f-a6d179924a37)
 
-![App Screenshot](https://cdn.discordapp.com/attachments/1179606611476611213/1179606791592607774/Led-menyala-saat-button-ditekan.gif?ex=657a656f&is=6567f06f&hm=cac47bcee7be2c628834f4577197dd9c906ee94e1531097fa0f388ceb65e4872&)
+https://github.com/JeffriPS/Embedded/assets/94127988/5ad67d0c-3b53-4e1f-9226-77f8c7b0fe47
 
 2. Led menyala dan _blink_ saat button ditekan
 
-![App Screenshot](https://cdn.discordapp.com/attachments/1043462519336996894/1043463436551589908/GPIO2.gif)
+https://github.com/JeffriPS/Embedded/assets/94127988/9a5401ee-c8fb-49f8-8fca-d3abc94fadcf
 
 3. Led menyala, _blink_, dan berjalan saat button ditekan
 
-![App Screenshot](https://cdn.discordapp.com/attachments/1043462519336996894/1043463436195078155/GPIO3.gif)
+https://github.com/JeffriPS/Embedded/assets/94127988/abaaff78-c4e1-4227-aa7b-359e8c38c276
+
+## Project 2 - PWM
+
+### Rangkaian
+
+1. Satu LED _breathing_
+
+<img src="" width="480px">
+
+2. Tiga LED _breathing_
+
+<img src="" width="480px">
+
+### Keluaran
+
+1. Satu LED _breathing_
+
+https://github.com/JeffriPS/Embedded/assets/94127988/4f8e8415-2d07-47a2-bbcf-1e0e4c5081ce
+
+2. Tiga LED _breathing_
+
+https://github.com/JeffriPS/Embedded/assets/94127988/068ce46c-5de8-4f4f-b119-6c39fb59d1c4
+
+## Project 3 - ADC
+
+### Rangkaian
+
+1. Keluaran potensio pada serial monitor
+
+<img src="" width="480px">
+
+2. Potensio terhadap cahaya LED
+
+<img src="" width="480px">
+
+### Hasil
+
+1. Keluaran potensio pada serial monitor
+
+https://github.com/JeffriPS/Embedded/assets/94127988/877b44a9-766a-430d-b54a-5d09f6f830bd
+
+2. Potensio terhadap cahaya LED
+
+https://github.com/JeffriPS/Embedded/assets/94127988/298065dd-e981-4a54-bf4f-44efd82d1169
+
+## Project 4 - Agresi Linier
+
+### Hasil
+
+https://github.com/JeffriPS/Embedded/assets/94127988/0af1a624-7cac-48e7-8073-87121965496b
+

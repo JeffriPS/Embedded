@@ -56,8 +56,10 @@ yang tidak ada di ESP8266.</p>
 ### Keluaran
 
 1. Led menyala saat button ditekan
+   
+![Led-menyala-saat-button-ditekan](https://github.com/JeffriPS/Embedded/assets/94127988/3ef51a84-5ffe-4828-8b3f-a6d179924a37)
 
-![App Screenshot](https://cdn.discordapp.com/attachments/1179606611476611213/1179606791592607774/Led-menyala-saat-button-ditekan.gif)
+![App Screenshot](https://cdn.discordapp.com/attachments/1179606611476611213/1179606791592607774/Led-menyala-saat-button-ditekan.gif?ex=657a656f&is=6567f06f&hm=cac47bcee7be2c628834f4577197dd9c906ee94e1531097fa0f388ceb65e4872&)
 
 2. Led menyala dan _blink_ saat button ditekan
 

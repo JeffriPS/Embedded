@@ -1,22 +1,9 @@
 # JOBSHEET 4 - TRANSMISI DATA MENGGUNAKAN PROTOKOL HTTP DAN MQTT
 
 ## Abstrak
-<p align="justify">Hypertext Transfer Protocol (HTTP) adalah sebuah protokol jaringan lapisan
-aplikasi yang digunakan untuk sistem informasi terdistribusi, kolaboratif, dan
-menggunakan hypermedia. Protokol tersebut sering diimplementasikan untuk
-melayani permintaan data dari user dan untuk manajemen website. Sementara itu,
-Message Queuing Telemetry Trasnsport (MQTT) adalah protokol komunikasi
-yang berjalan di atas stack TCP/IP, didesain untuk komunikasi Machine-to-
-Machine (M2M), bersifat open sources dan lightweight, mempunyai protocol
-overhead yang rendah (minimum 2 bytes) sehingga berefek pada konsumsi daya
-yang kecil dan mampu bekerja pada latency yang tinggi serta bandwidth yang
-kecil, sehingga protokol ini sering dimanfaatkan untuk transmisi data dari Node
-Sensor menuju Server.</p>
+<p align="justify">HTTP adalah protokol aplikasi untuk sistem informasi terdistribusi yang fokus pada hypermedia, umumnya digunakan untuk melayani permintaan data pengguna dan mengelola situs web. Sebaliknya, MQTT adalah protokol komunikasi di atas TCP/IP, dirancang untuk komunikasi Machine-to-Machine (M2M). MQTT bersifat open source, ringan, memiliki overhead protokol minimal (2 byte), dan efisien dalam konsumsi daya. Protokol ini umumnya digunakan untuk mentransmisikan data dari Node Sensor ke Server.</p>
 
-<p align="justify">Jobsheet ini bertujuan untuk memahami cara kerja protokol HTTP dan MQTT untuk
-transmisi data (akuisisi data dan kendali) pada Platform IoT Node-Red serta merancang dan melakukan konfigurasi pada perangkat
-Internet of Things (IoT) menggunakan protokol HTTP dan MQTT untuk
-monitoring dan kendali melalui Platform IoT Node-Red.</p>
+<p align="justify">Jobsheet ini bertujuan untuk memahami cara kerja protokol HTTP dan MQTT dalam transmisi data (akuisisi dan kendali) pada Platform IoT Node-Red. Selain itu, jobsheet ini juga bertujuan untuk merancang dan mengkonfigurasi perangkat Internet of Things (IoT) menggunakan protokol HTTP dan MQTT untuk tujuan pemantauan dan kendali melalui Platform IoT Node-Red.</p>
 
 **Sub-job** pada jobsheet ini, antara lain:
 1. Setting SSID dan Password Wi-Fi ESP32 melalui Web Server

@@ -1,7 +1,7 @@
 # JOBSHEET 2 - PROTOKOL KOMUNIKASI DAN SENSOR
 
 ## Abstrak
-<p align="justify">Praktikum Protokol Komunikikasi dan Sensor ini bertujuan untuk memperkenalkan mahasiswa pada konsep dasar protokol komunikasi dan penggunaan sensor dengan menggunakan mikrokontroler ESP32. ESP32 merupakan salah satu jenis mikrokontroler yang memiliki kemampuan WiFi dan Bluetooth yang dapat digunakan untuk berbagai proyek Internet of Things (IoT). Praktikum ini akan membahas konsep dasar protokol komunikasi seperti Serial Communication, I2C, SPI, serta penerapannya dalam penggunaan sensor. Pada tahap awal praktikum, mahasiswa akan diperkenalkan dengan ESP32 dan lingkungan pengembangan perangkat lunak (IDE) yang umum digunakan untuk memprogram ESP32, seperti Arduino IDE atau PlatformIO. Setelah memahami dasar-dasar pemrograman ESP32, mahasiswa akan belajar tentang berbagai protokol komunikasi yang umum digunakan dalam mikrokontroler. Setelah memahami konsep dasar komunikasi, mahasiswa akan diperkenalkan dengan penggunaan sensor pada ESP32. Mereka akan belajar tentang berbagai jenis sensor seperti sensor suhu, sensor kelembaban, sensor gerak, atau sensor jarak dan bagaimana mengintegrasikan sensor-sensor tersebut dengan ESP32. Selanjutnya, mahasiswa akan diberikan praktikum untuk mengimplementasikan pengetahuan yang didapat dengan membuat proyek sederhana menggunakan ESP32, seperti membaca data dari sensor suhu dan menampilkan informasi tersebut melalui koneksi serial atau mengirim data sensor ke server menggunakan koneksi WiFi.</p>
+<p align="justify">Praktikum Protokol Komunikasi dan Sensor memperkenalkan mahasiswa pada konsep dasar protokol komunikasi dan penggunaan sensor dengan mikrokontroler ESP32, yang memiliki kemampuan WiFi dan Bluetooth untuk proyek Internet of Things (IoT). Materi melibatkan konsep Serial Communication, I2C, SPI, serta penerapan sensor seperti suhu, kelembaban, gerak, dan jarak pada ESP32. Setelah memahami dasar-dasar pemrograman ESP32, mahasiswa diajak untuk menerapkan pengetahuan tersebut dalam proyek sederhana, seperti membaca data sensor suhu dan mengirimkannya ke server melalui koneksi WiFi.</p>
 
 <p align="justify">Jobsheet ini bertujuan untuk memahami cara kerja protokol komunikasi yang terdapat pada ESP32, seperti UART, I2C, OneWire, SPI, menggunakan protokol komunikasi data seperti UART, I2C, OneWire, dan SPI untuk mengakses sensordsan diharapkan dapat memanfaatkan transducer sensor dan actuator untuk membuat sebuah perangkat IoT..</p>
 
@@ -60,7 +60,8 @@ https://github.com/JeffriPS/Embedded/assets/94127988/0e7375a1-2426-4bb4-b258-e30
 Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/3.%20LED%20BLINK%20KETIKA%20SENSOR%20DISENTUH/Percobaan2.ino">di sini</a>
 
 ### c. Hasil dan Pembahasan
-Hasil dari percobaan ini adalah ketika sensor disentuh, LED menyala Blink. Dengan program seperti diatas namun diberi tambahan `digitalWrite(led, LOW)` dan `delay(500)` sehingga program akan mempengaruhi pin LED HIGH dan LOW secara looping terus menerus. Jika nilai kapasitansi kurang dari 20 (sentuhan terdeteksi), LED pada pin 16 akan berkedip dengan interval 500 ms on dan 500 ms off. Jika nilai kapasitansi lebih besar atau sama dengan 20 (tidak ada sentuhan terdeteksi), LED dimatikan.
+
+Percobaan ini menunjukkan bahwa saat sensor disentuh, LED berkedip dengan interval 500 ms. Nilai kapasitansi kurang dari 20 menandakan sentuhan terdeteksi, sehingga LED berkedip. Jika nilai kapasitansi lebih besar atau sama dengan 20, LED dimatikan, menandakan tidak ada sentuhan terdeteksi.
 
 https://github.com/JeffriPS/Embedded/assets/94127988/6443ce83-28ff-4cb4-a3b3-697d856f3f06
 
@@ -90,7 +91,8 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/5.%20RUNNING%20LED%20SECARA%20KONTINYU/percobaan2_step9.ino">di sini</a>
 
 ### c. Hasil dan Pembahasan
-Hasil dari percobaan ini adalah terdapat 3 LED ketika sensor disentuh, LED menyala menjadi running LED. Nyala running LED tersebut adalah bergerak dari kiri ke kanan, kemudian kanan ke kiri secara kontinyu. Menggunakan program dimana Program akan membuka komunikasi serial dan mencetak pesan "ESP32 Touch Test". Di dalam loop utama, nilai kapasitansi sensor sentuh pada pin T0 (GPIO 4) terus-menerus dibaca. Jika nilai kapasitansi kurang dari 20 (sentuhan terdeteksi), tiga LED (led, led2, led3) akan dinyalakan secara berurutan dengan interval 500 ms on dan 500 ms off. Jika tidak ada sentuhan terdeteksi, semua LED dimatikan. Nilai hitungan dicetak ke serial monitor.
+
+Percobaan ini menggunakan tiga LED untuk membentuk efek running LED saat sensor disentuh. Program membuka komunikasi serial dengan pesan "ESP32 Touch Test". Saat nilai kapasitansi sensor sentuh (T0/GPIO 4) kurang dari 20 (sentuhan terdeteksi), tiga LED (led1, led2, led3) berkedip berurutan setiap 500 ms. Jika tidak ada sentuhan, semua LED dimatikan. Nilai hitungan dicetak ke serial monitor.
 
 https://github.com/JeffriPS/Embedded/assets/94127988/d0e9bfad-00c2-4c36-b520-c0f189d0c6c3
 
@@ -153,7 +155,8 @@ Rangkaian pada percobaan ini adalah sebagai berikut
 Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%202/C.%20%20Mengakses%20Sensor%20RFID%20(SPI%20Communication)/Tag%20RFID%20untuk%20hak%20akses/rfid_dan_servo_step5.ino">di sini</a>
 
 ### c. Hasil dan Pembahasan
-Hasil dari percobaan ini adalah ketika tag RFID didekatkan pada Reader, maka LED Hijau akan menyala, servo akan bergerak ke kanan (lalu kembali ke posisi semula setelah 3 detik) dan di Serial Monitor akan tertampil pesan “Akses Diterima, Silahkan Masuk”. Apabila Tag RFID tidak dikenali, maka LED Merah akan menyala, servo tidak bergerak dan di Serial Monitor akan tertampil pesan “Akses Ditolak”. 
+
+Dalam percobaan ini, ketika tag RFID didekatkan pada Reader, LED Hijau menyala, servo bergerak ke kanan (kemudian kembali ke posisi semula setelah 3 detik), dan di Serial Monitor muncul pesan “Akses Diterima, Silahkan Masuk”. Namun, jika Tag RFID tidak dikenali, LED Merah menyala, servo tetap statis, dan di Serial Monitor terpampang pesan “Akses Ditolak”.
 
 https://github.com/JeffriPS/Embedded/assets/94127988/235eb796-e0c3-4ba8-af1e-4e5dd657b0fa
 

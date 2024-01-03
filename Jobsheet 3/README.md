@@ -124,5 +124,4 @@ Pengiriman data sensor ke database dimulai dengan menyusun rangkaian sederhana s
 
 https://github.com/JeffriPS/Embedded/assets/94127988/36744e9d-3f77-4bd1-8696-edec2068c738
 
-### d. Flowchart
 

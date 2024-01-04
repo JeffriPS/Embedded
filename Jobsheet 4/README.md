@@ -1,6 +1,6 @@
 # JOBSHEET 4 - TRANSMISI DATA MENGGUNAKAN PROTOKOL HTTP DAN MQTT
 
-## Abstrak
+## Abstra
 <p align="justify">HTTP adalah protokol aplikasi untuk sistem informasi terdistribusi yang fokus pada hypermedia, umumnya digunakan untuk melayani permintaan data pengguna dan mengelola situs web. Sebaliknya, MQTT adalah protokol komunikasi di atas TCP/IP, dirancang untuk komunikasi Machine-to-Machine (M2M). MQTT bersifat open source, ringan, memiliki overhead protokol minimal (2 byte), dan efisien dalam konsumsi daya. Protokol ini umumnya digunakan untuk mentransmisikan data dari Node Sensor ke Server.</p>
 
 <p align="justify">Jobsheet ini bertujuan untuk memahami cara kerja protokol HTTP dan MQTT dalam transmisi data (akuisisi dan kendali) pada Platform IoT Node-Red. Selain itu, jobsheet ini juga bertujuan untuk merancang dan mengkonfigurasi perangkat Internet of Things (IoT) menggunakan protokol HTTP dan MQTT untuk tujuan pemantauan dan kendali melalui Platform IoT Node-Red.</p>

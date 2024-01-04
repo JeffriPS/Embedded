@@ -86,7 +86,7 @@ https://github.com/JeffriPS/Embedded/assets/94127988/e66042e3-b185-42f2-b755-79b
 
 Rangkaian pada percobaan ini adalah sebagai berikut
 
-
+<img width="480px" src="https://github.com/JeffriPS/Embedded/assets/94127988/8bfe00e9-b5aa-462b-9b6f-235c7313db40">
 
 ### b. Source Code
 Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%202/A.%20ESP32%20Capacitive%20Touch%20Sensor/5.%20RUNNING%20LED%20SECARA%20KONTINYU/percobaan2_step9.ino">di sini</a>
@@ -145,7 +145,6 @@ Hasil dari percobaan ini adalah ketika RFID Card didekatkan pada RFID Reader mak
 https://github.com/JeffriPS/Embedded/assets/94127988/9e22e002-c2db-40ea-8959-3f9c5f3918f0
 
 ## 2. Tugas
-![rangkaian tugas]()
 
 ### a. Rangkaian
 <img width="350px" src="https://github.com/JeffriPS/Embedded/assets/94127988/196456d5-8fbb-4465-884a-36a3dd6e50c3">

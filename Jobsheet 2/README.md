@@ -83,6 +83,7 @@ https://github.com/JeffriPS/Embedded/assets/94127988/e66042e3-b185-42f2-b755-79b
 ## 5. LED tersebut adalah bergerak dari kiri ke kanan, kemudian kanan ke kiri
 
 ### a. Rangkaian
+
 Rangkaian pada percobaan ini adalah sebagai berikut
 
 
@@ -102,7 +103,7 @@ https://github.com/JeffriPS/Embedded/assets/94127988/d0e9bfad-00c2-4c36-b520-c0f
 
 ### a. Rangkaian 
 
-<img alt="image" src="https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/cca91488-7ed5-4895-8eec-67d8496790c8">
+<img alt="image" width="350px" src="https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/cca91488-7ed5-4895-8eec-67d8496790c8">
 
 ### b. Source Code
 Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%202/B.%20%20Mengakses%20Sensor%20DHT%2011%20(Single%20Wire%20-%20BUS)/1.%20AKSES%20SENSOR%20DHT%2011/sensor_dht_step3.ino">di sini</a>
@@ -116,8 +117,7 @@ https://github.com/JeffriPS/Embedded/assets/94127988/b8be5f06-1c60-4c92-b84a-753
 
 ### a. Rangkaian
 
-![board-2](https://github.com/farhanhisyam/sistemEmbedded/assets/94108385/14779bf1-007e-428e-b901-ab4477c5802c)
-
+<img width="350px" src="https://github.com/farhanhisyam/sistemEmbedded/assets/94108385/14779bf1-007e-428e-b901-ab4477c5802c">
 
 ### b. Source Code
 Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%202/B.%20%20Mengakses%20Sensor%20DHT%2011%20(Single%20Wire%20-%20BUS)/2.%20KONTROL%20BUZZER%20MENGGUNAKAN%20SENSOR%20SUHU/sensor_dht11_dan_buzzer.ino">di sini</a>
@@ -134,7 +134,7 @@ https://github.com/JeffriPS/Embedded/assets/94127988/2f1ea066-960d-49fa-b76e-411
 
 ### a. Rangkaian 
 
-<img alt="image" src="https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/74a26b36-91ab-4a93-8a4d-af319da6e011">
+<img width="350px" src="https://github.com/delimaayup/jobsheetEmbedded/assets/151798889/74a26b36-91ab-4a93-8a4d-af319da6e011">
 
 ### b. Source Code
 Kode program dapat dilihat <a href="https://github.com/JeffriPS/Embedded/blob/main/Jobsheet%202/C.%20%20Mengakses%20Sensor%20RFID%20(SPI%20Communication)/Tag%20RFID%20ke%20RFID%20Reader/percobaan1_step3.ino">di sini</a>
@@ -145,8 +145,11 @@ Hasil dari percobaan ini adalah ketika RFID Card didekatkan pada RFID Reader mak
 https://github.com/JeffriPS/Embedded/assets/94127988/9e22e002-c2db-40ea-8959-3f9c5f3918f0
 
 ## 2. Tugas
+![rangkaian tugas]()
 
 ### a. Rangkaian
+<img width="350px" src="https://github.com/JeffriPS/Embedded/assets/94127988/196456d5-8fbb-4465-884a-36a3dd6e50c3">
+
 Rangkaian pada percobaan ini adalah sebagai berikut
 
 
